@@ -1,0 +1,89 @@
+/* ==UserStyle==
+@name           Super Simple Userbox Maker Night Mode
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A darkmode for the super simple userbox maker. 
+@author         ZoranaDragon
+==/UserStyle== */
+@-moz-document url-prefix("https://www.yerich.net/userbox/") {
+    body {
+        background-color: #202124
+    }
+    #tabby {
+        background: #202124;
+        border-bottom: 1px solid #7f5988;
+        color: white
+    }
+    #tabby li {
+        display: inline;
+        margin-left: 6px;
+        border: 1px solid #7f5988;
+        padding: 3px;
+        position: relative;
+        bottom: 3px;
+        background: #7f5988;
+        cursor: pointer;
+        color: white
+    }
+    #rtabby {
+        background: #202124;
+        border-bottom: 1px solid #517d6b;
+        color: white
+    }
+    #rtabby li {
+        display: inline;
+        margin-left: 6px;
+        border: 1px solid #517d6b;
+        padding: 3px;
+        position: relative;
+        bottom: 3px;
+        background: #517d6b;
+        cursor: pointer;
+        color: white
+    }
+    #titlemaker {
+        color: #d1d1d1;
+    }
+    #titletop,
+    #author {
+        color: #d1d1d1;
+        font-size: 9px;
+        padding-left: 2px;
+    }
+    #result {
+        background: #264d3d;
+        color: white
+    }
+    #create {
+        background: #502659;
+        color: white
+    }
+    input {
+        border: 1px solid #7f5988;
+    }
+    fieldset {
+        border: 1px solid #7f5988;
+    }
+    #mainform {
+        background: #502659;
+    }
+    .rselected,
+    #rtabby li:hover {
+        background: #264d3d !important;
+        border-bottom: 1px solid #264d3d !important;
+    }
+    .selected,
+    #tabby li:hover {
+        background: #502659 !important;
+        border-bottom: 1px solid #502659 !important;
+    }
+    #colorselect {
+        background: #7f5988;
+    }
+    a:link {
+        color: #f8ffa6;
+    }
+    a:visited {
+        color: #f8ffa6;
+    }
+}
